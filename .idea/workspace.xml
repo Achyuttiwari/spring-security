@@ -4,30 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2865d3bb-9aab-4b45-96ee-5c34eb1fb8c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/SpringSecurityClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/controller/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/model/UserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/service/UserServiceImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/test/java/com/springSecurity/client/SpringSecurityClientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springSecurity/Main.java" afterDir="false" />
+    <list default="true" id="2865d3bb-9aab-4b45-96ee-5c34eb1fb8c6" name="Changes" comment="Entity....">
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/entity/PasswordResetToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/entity/VerificationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/event/RegistrationCompleteEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/event/listener/RegistrationCompleteEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/model/PasswordModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/repository/PasswordResetTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/repository/VerificationTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/service/UserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/service/UserServiceImplementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +32,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/controller/RegistrationController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/entity/User.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/spring-security-client/src/main/java/com/springSecurity/client/service/UserServiceImplementation.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,6 +64,26 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="SpringSecurityClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springSecurity.client.SpringSecurityClientApplication" />
+      <module name="spring-security-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springSecurity.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringSecurityClientApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,6 +93,154 @@
       <option name="presentableId" value="Default" />
       <updated>1671809446762</updated>
     </task>
+    <task id="LOCAL-00001" summary="pom.xml spring-security-client file.">
+      <created>1671877653668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671877653668</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mvnw.cmd">
+      <created>1671877683217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671877683217</updated>
+    </task>
+    <task id="LOCAL-00003" summary="mvnw">
+      <created>1671877695652</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671877695652</updated>
+    </task>
+    <task id="LOCAL-00004" summary="gitignore">
+      <created>1671877721884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671877721885</updated>
+    </task>
+    <task id="LOCAL-00005" summary="application.yml">
+      <created>1671877746760</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671877746760</updated>
+    </task>
+    <task id="LOCAL-00006" summary="workspace.xml">
+      <created>1671877765975</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671877765975</updated>
+    </task>
+    <task id="LOCAL-00007" summary="pom.xml">
+      <created>1671877789388</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671877789388</updated>
+    </task>
+    <task id="LOCAL-00008" summary="pom.xml">
+      <created>1671877804257</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671877804257</updated>
+    </task>
+    <task id="LOCAL-00009" summary="encodings.xml">
+      <created>1671877821440</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671877821440</updated>
+    </task>
+    <task id="LOCAL-00010" summary="version control service">
+      <created>1671877851545</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671877851545</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Service package">
+      <created>1671877923060</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671877923060</updated>
+    </task>
+    <task id="LOCAL-00012" summary="model package">
+      <created>1671877962670</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671877962670</updated>
+    </task>
+    <task id="LOCAL-00013" summary="configuration">
+      <created>1671877996405</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671877996405</updated>
+    </task>
+    <task id="LOCAL-00014" summary="repository">
+      <created>1671878017117</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671878017117</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test.....">
+      <created>1671878040983</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671878040983</updated>
+    </task>
+    <task id="LOCAL-00016" summary="maven-wrapper.jar">
+      <created>1671878057849</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671878057849</updated>
+    </task>
+    <task id="LOCAL-00017" summary="maven-wrapper.properties">
+      <created>1671878071083</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671878071083</updated>
+    </task>
+    <task id="LOCAL-00018" summary="controller package">
+      <created>1671878090037</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671878090037</updated>
+    </task>
+    <task id="LOCAL-00019" summary="To run the application.">
+      <created>1671878123198</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671878123198</updated>
+    </task>
+    <task id="LOCAL-00020" summary="....">
+      <created>1671878132037</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671878132037</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Entity....">
+      <created>1671878145677</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1671878145677</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,5 +256,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="pom.xml spring-security-client file." />
+    <MESSAGE value="mvnw.cmd" />
+    <MESSAGE value="mvnw" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="application.yml" />
+    <MESSAGE value="workspace.xml" />
+    <MESSAGE value="pom.xml" />
+    <MESSAGE value="encodings.xml" />
+    <MESSAGE value="version control service" />
+    <MESSAGE value="Service package" />
+    <MESSAGE value="model package" />
+    <MESSAGE value="configuration" />
+    <MESSAGE value="repository" />
+    <MESSAGE value="test....." />
+    <MESSAGE value="maven-wrapper.jar" />
+    <MESSAGE value="maven-wrapper.properties" />
+    <MESSAGE value="controller package" />
+    <MESSAGE value="To run the application." />
+    <MESSAGE value="...." />
+    <MESSAGE value="Entity...." />
+    <option name="LAST_COMMIT_MESSAGE" value="Entity...." />
   </component>
 </project>

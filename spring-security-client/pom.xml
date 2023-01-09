@@ -12,7 +12,7 @@
 	<artifactId>spring-security-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-security-client</name>
-	<description>Spring Security Outh</description>
+	<description>Spring Security OAuth</description>
 	<properties>
 		<java.version>19</java.version>
 	</properties>
